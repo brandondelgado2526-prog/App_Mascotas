@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App MASCOTAS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>MASCOTAS Para Ti❤️</h1>
+      <p>Práctica 1 - Sub 2</p>
+    </header>
+    <section class="perfil">
+      <img src="img/Mascotas.jpeg" alt="perfil">
+    </section>
+    <nav class="menu">
+      <button onclick="mostrarSeccion('inicio')">Inicio</button>
+      <button onclick="mostrarSeccion('mascotas-populares')">Mascotas Populares</button>
+      <button onclick="mostrarSeccion('info-adicional')">Información sobre Mascotas</button>
+    </nav>
+    <main>
+      <section id="inicio" class="seccion activa">
+        <h2>!Bienvenido! Ah Mi App</h2>
+<img src="img/Bienvenido.jpeg" alt="Imagen de bienvenido" class="imagen-bienvenido">
+        <p>EN ESTA APP TE MOSTRARE ALGUNAS DE LAS MASCOTAS QUE QUISIERAN DE TU COMPAÑIA🫶🏽.</p>
+      </section>
+      <section id="mascotas-populares" class="seccion">
+        <h2>MASCOTAS MAS POPULARES</h2>
+        <div class="card">
+          <h3>Perros</h3>
+ <img src="img/Perro.jpeg" alt="Imagen de perro" class="imagen-perro">
+          <p>Los perros son el amigo mas fiel de los seres humanos,y con los cuales simempre es recomendable tener uno.Hay más de 340 razas reconocidas, cada una con características únicas.Necesitan ejercicio diario y entrenamiento para ser buenos compañeros.</p>
+        </div>
+        <div class="card">
+          <h3>Gatos</h3>
+ <img src="img/Gato.jpeg" alt="Imagen de gato" class="imagen-gato">
+          <p> Son curiosos y independientes, pero también muy afectuosos.Duermen mucho pueden pasar hasta 16 horas al día durmiendo. Son fáciles de cuidar, son recomendable para esas personas que tienen ocupados sus horarios.</p>
+        </div>
+        <div class="card">
+          <h3>Peces</h3>
+ <img src="img/Pez.jpeg" alt="Imagen de pez" class="imagen-pez">
+       <p>Son animales acuáticos que pueden ser muy relajantes y fáciles de cuidar.Solo necesitan un acuario limpio y bien cuidado para sobrevivir, es muy bonito tener uno en vivienda.</p>
+        </div>
+      </section>
+      <section id="info-adicional" class="seccion">
+        <h2>Información acerca de nuestras Mascotas</h2>
+<img src="img/Animales.jpeg" alt="Imagen de animal" class="imagen-animal">
+        <div class="card">
+          <p>Tipos de Mascotas: Perros, gatos, peces, aves, etc.</p>
+          <p>Nos ayudan fomentar la responsabilidad, el amor y el cuidado por los animales.</p>
+          <p>Tendencia actual: Las mascotas son consideradas parte de la familia y se les da un trato especial.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <span>🐾</span>
+      <span>❤️</span>
+      <span>📞</span>
+    </footer>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
